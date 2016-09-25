@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+#carrousel{
+    position:relative;
+    height:200px;
+    width:700px;
+    margin:auto;
+    border: 5px solid black;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 700px;
+    
+}
+
+.title {
+    height: 35px;
+    line-height: 35px;
+    width: 688px;
+    background-color: rgba(255,255,255, 0.5);
+    padding-left: 12px;
+    bottom: 0;
+    left: 0;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 38px;
+    right: 5px;
+   
+}
+
+.navigation span {
+    background-color: black;
+    color: wheat; 
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.navigation span:hover {
+     background-color: wheat;
+    color: black; 
+}
+
+

@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>carousel</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="carousel.css" />
     </head>
     <body>
         <div>TODO write content</div>
@@ -17,14 +18,38 @@ and open the template in the editor.
 
         <div id="carrousel">
             <ul>
-                <li><img src="http://lorempixel.com/700/200/" alt="carousel1" /></li>
-                <li><img src="http://lorempixel.com/g/700/200/" alt="carousel2" /></li>
-                <li><img src="http://lorempixel.com/700/200/abstract/" alt="caousel3" /></li>
-                <li><img src="http://lorempixel.com/700/200/abstract/" alt="caousel4" /></li>
+                <li id="slide1" class="slide">
+                    <img src="http://lorempixel.com/700/200/" alt="carousel1" />
+                    <div class="title">Un titre</div>
+                </li>
+                
+                <li id="slide2" class="slide">
+                    <img src="http://lorempixel.com/g/700/200/" alt="carousel2" />
+                    <div class="title">Un autre titre</div>
+                </li>
+                
+                <li id="slide3" class="slide">
+                    <img src="http://lorempixel.com/700/200/abstract/" alt="caousel3" />
+                    <div class="title">Un titre pour la troisième fois</div>
+                </li>
+                
+                <li id="slide4" class="slide">    
+                    <img src="http://lorempixel.com/700/200/abstract/" alt="caousel4" />
+                    <div class="title">Titre 4</div>
+                </li>
+                
+               
             </ul>
+            <div class="navigation">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+            </div>
         </div>
-        
+
         <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="carousel.js"></script>
 
     </body>
 </html>
